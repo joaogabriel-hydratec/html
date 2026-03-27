@@ -1,2 +1,2 @@
 # -HTML-
-meus estudos sobre HTNL !!!
+meus estudos sobre HTML !!!
