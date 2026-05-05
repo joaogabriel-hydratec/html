@@ -111,7 +111,40 @@
 
     <!--seçao contato-->
     <section id="contato">
-     seção contato
+     <h2>fale conosco</h2>
+     <p>
+        tem duvidas sobre algum estrumento? mande uma mensagem ou agende uma visita.
+     </p>
+     <address>
+        <p>
+            <strong>loja física: </strong>centro historico, xique-xique Bahia
+        </p>
+     </address>
+     <form action="#">
+        <label for="nome">nome completo</label>
+        <br>
+        <input type="text" name="nome" id="nome" placeholder="digite seu nome" required>
+        <br><br>
+        <label for="email">e-mail</label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="digite seu e-mail"
+        required>
+        <br><br>
+        <label for="departamento">departamento</label>
+        <br>
+        <select name="departamento" id="departamento">
+          <option value="vendas">vendas</option>
+          <option value="suporte">suporte tecnico</option>
+          <option value="financeiro">financeiro</option>
+           <option value="sugestão">sugestões</option>
+        </select>
+        <br><br>
+        <label for="mensagem">mensagem</label>
+        <br>
+        <textarea name="mensagem" id="mensagem" rows="10"></textarea>
+        <br><br>
+        <button type="submit">enviar mensagem</button>
+     </form>
     </section>
 </main>
 
